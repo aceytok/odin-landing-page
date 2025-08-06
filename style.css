@@ -73,7 +73,8 @@ button {
     justify-content: space-around;
     gap: 52px;
     margin: 60px auto;
-    padding: 16px;
+    padding: 32px;
+    width: 1200px
 }
 
 .hero-left {
@@ -127,4 +128,33 @@ button {
 .text {
     display: flex;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 180px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    max-width: 1000px;
+}
+
+.quote-footer {
+    margin-left: 650px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #F9FAF8;
+    align-items: center;
 }
